@@ -1,0 +1,53 @@
+body {
+    line-height: 1.6;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.header {
+    text-align: center;
+    padding-top: 2em;
+}
+.header h1 {
+    letter-spacing: -.05em;
+}
+.header h3 {
+    letter-spacing: -.05em;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.5em;
+    text-decoration: underline;
+    line-height: 1.8em;
+}
+.header h3:hover {
+    color: darkslategrey;
+}
+.header p {
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.mission {
+    padding-top: 50px;
+}
+.mission h5 {
+    font-weight: 700;
+}
+.mission p {
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.tech {
+    text-align: center;
+}
+.tech h4 {
+    text-decoration: underline;
+    font-weight: 300;
+}
+.tech-list img {
+    height: 70px;
+    margin: 15px;
+}
+.tech-list {
+    padding-top: 5px;
+}
