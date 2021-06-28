@@ -27,7 +27,8 @@ body {
 }
 
 .mission {
-    padding-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 50px;
 }
 .mission h5 {
     font-weight: 700;
@@ -36,7 +37,9 @@ body {
     line-height: 1.8;
     font-weight: 300;
 }
-
+.mission img {
+    width: 250px;
+}
 .tech {
     text-align: center;
 }
