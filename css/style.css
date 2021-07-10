@@ -10,11 +10,12 @@ header {
     padding: 30px 0 15px 0;
     text-align: center;
 }
-
 header a {
     padding: 5px;
 }
-
+header a .active {
+    color: green;
+}
 .heading {
     text-align: center;
     padding: 15px;
@@ -23,8 +24,4 @@ footer {
     padding: 25px;
     text-align: center;
     font-size: .9em;
-}
-.container {
-    background: snow;
-    padding: 0 30px;
 }
