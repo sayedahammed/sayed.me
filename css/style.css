@@ -1,59 +1,30 @@
-body {
-    padding: 5px 0 50px 0;
+p {
+    padding: 5px;
     margin: 0;
-    line-height: 1.6;
-    background: snow;
-    font-size: 1.1rem;
-    font-family: 'Montserrat', sans-serif;
 }
-.content {
-    width: 80%;
-    margin: 0 auto;
-    background: floralwhite;
-    padding: 10px 50px;
-    border: 1px solid blanchedalmond;
+body {
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
 }
 header {
+    padding: 30px 0 15px 0;
     text-align: center;
 }
+
 header a {
-    font-size: 14px;
     padding: 5px;
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: none;
 }
-header .active {
-    color: blue;
-}
-h1, h2, h3, h4, h5, p {
-    padding: 0;
-    margin: 0;
-}
-.heading h1 {
-    text-align: center;
-}
-.heading h4 {
-    text-align: center;
-    font-style: italic;
-}
+
 .heading {
-    padding-top: 25px;
-}
-.section {
-    padding-top: 15px;
-}
-.section p {
-    padding: 5px 0;
-}
-.section .p-top {
-    padding-top: 15px;
+    text-align: center;
+    padding: 15px;
 }
 footer {
-    padding: 20px;
+    padding: 25px;
     text-align: center;
-    font-size: 14px;
+    font-size: .9em;
 }
-.center {
-    text-align: center;
+.container {
+    background: snow;
+    padding: 0 30px;
 }
